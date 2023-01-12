@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hangman.css">
+        <script defer src="hangman.js"></script>
+        <script defer src="scoreDelivery.js"></script>
+        <link rel="icon" href="images/hangman.png" type="image/x-icon">
+        
+        <title>hangman</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">HANGMAN</h1>
+            <div class="infos">
+                <h1 id="score">score:</h1>
+                <a href="dbManagement/logout.php"><button id="logout_btn">logout</button></a>
+            </div>
+            <img id="img" src="images\pic0.jpg">
+            <h1 id="display"></h1>
+            <div class="keyboard" id="keyboard"></div>
+        </div>  
+        <div class="gameLost">
+            <h3>the word was:</h3>
+            <h1 id="wordDis"></h1>
+            <button id="retryBtn">try again</button>
+        </div>
+    </body>
+    
+</html>
